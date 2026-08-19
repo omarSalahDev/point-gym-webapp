@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="coaches.css">
+
+    <title>POINT GYM</title>
+</head>
+<body>
+
+
+ <div class="container">
+
+    <!-- <header -->
+
+  <div class="header">
+<img src="midea/logo.ico" alt="icon" width="40px" height="40px" class="logo"><h2>Point gym</h2>.
+<ul class="list">
+<li><a href="home.html"> HOME</a></li>
+<li><a href="inbody.html"> INBODY</a></li>
+<li> <a href="coaches.html">COACHES</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+<li><a href="pricing.html"> PRICING</a></li>
+<li><a href="schedule.html"> SCHEDULE</a></li>
+<li><a style="color:#33ff00;" href="login.html">LOGIN</a></li>
+</ul>
+</div>
+    
+    <div class="content">
+     <div class="flex2">
+            
+    <div id="s1"><h1>Mohamed</h1><h3>A specialist in bodybuilding <br>and muscle hypertrophy with over 10 years<br> of experience in preparing professional <br>athletes for competitions.</h3></div>
+    <div id="s2"><h1>Yousef</h1><h3>Certified functional trainer<br> focused on improving flexibility, core strength<br> and helping clients recover <br>from sports-related injuries</h3></div>
+    <div id="s3"><h1>Ahmed</h1><h3>High-Intensity Interval Training <br>(HIIT) expert who knows exactly how<br> to push your limits to burn fat and <br>boost endurance effectively.</h3></div>
+    </div><div class="flex2">
+    <div id="s4"><h1>Mahmoud</h1><h3>Nutrition and weight management<br> consultant dedicated to designing personalized <br>meal plans that complement<br>your hard work in the gym.</h3></div>
+    <div id="s5"><h1>Abdalrahman</h1><h3>Powerlifting coach known for teaching <br>perfect lifting techniques to help you <br>hit your personal records safely<br> and consistently.</h3></div>
+    <div id="s6"><h1>Tarek</h1><h3>A lifestyle and transformation coach<br> specializing in beginner-friendly programs <br>to help you build a sustainable<br> and healthy fitness habit</h3></div>
+    </div> 
+<form id="s7" name="myForm" onsubmit="return validateForm()">
+<label style="color:#33ff00">Coash name</label> <input type="text" name="Coash-name">
+
+<input type="submit">
+
+</form>
+</div>   
+
+
+<!-- footer -->
+
+ <div class="footer">      
+<div class="footer-col">
+<h3 class="highlight">POINT GYM</h3>
+ <p class="footer-text">
+ Forge your strongest self, inside and out. The ultimate fitness destination.
+</p>
+</div>     
+ <div class="footer-col">
+ <h3>QUICK LINKS</h3>
+<ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="pricing.html">Plans</a></li>
+    <li><a href="coaches.html">Trainers</a></li>
+    <li><a href="schedule.html">Schedule</a></li>
+</ul>
+</div>
+ 
+ <div class="footer-col">
+<h3>CONNECT</h3>
+ <ul>
+     <li><a href="https://www.instagram.com/point.club.gym/" target="_blank">Instagram</a></li>
+     <li><a href="https://www.facebook.com/pointclubgym" target="_blank">Facebook</a></li>
+ </ul>
+</div>        
+<div class="footer-col footer-col-wide">
+<h3>SUPPORT / CONTACT</h3>
+<p class="footer-text-mb">
+<p>Location:<br><br>
+ الفيوم لطف الله مول سيتي بلازا بجوار مسجد الشبان المسلمين<br>
+Monshat El Fayoum, Faiyum Governorate, Egypt
+ </p>
+<p class="footer-text">
+<strong>Phone:</strong><br>
+ <a href="tel:01090448080">010 90448080</a><br>
+<a href="tel:+201090448080">010 90448080</a>
+ </p>
+ </div>
+
+ </div>
+     
+</div></div>
+<script>
+function validateForm() {
+let x = 
+document.forms["myForm"]["Coash-name"].value;
+if (x == "") {
+alert("Name must be sellected");
+return false;
+}else{alert("submit success");}
+}
+</script>
+</body>
+</html>

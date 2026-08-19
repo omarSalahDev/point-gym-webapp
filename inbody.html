@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="inbody.css">
+
+    <title>POINT GYM</title>
+</head>
+<body>
+
+
+ <div class="container">
+
+    <!-- <header -->
+
+  <div class="header">
+<img src="midea/logo.ico" alt="icon" width="40px" height="40px" class="logo"><h2>Point gym</h2>.
+<ul class="list">
+<li><a href="home.html"> HOME</a></li>
+<li><a href="inbody.html"> INBODY</a></li>
+<li> <a href="coaches.html">COACHES</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+<li><a href="pricing.html"> PRICING</a></li>
+<li><a href="schedule.html"> SCHEDULE</a></li>
+<li><a style="color:#33ff00;" href="login.html">LOGIN</a></li>
+</ul>
+</div>
+    
+    <div class="content">
+        <div class="flex2"><br><br>
+       <h1 id="s1">INBODY</h1><br><br><br><br>
+<div id="s2"><h1>Enter you inbody information</h1>
+    <form name="myForm" onsubmit="return validateForm()">
+<label style="color:#33ff00">your height</label> <input type="text" name="your height"><br><br><br><br>  
+<label style="color:#33ff00">your weight</label> <input type="text" name="your weight"><br><br><br><br>
+<label style="color:#33ff00">your age</label> <input type="number" name="your age"><br><br><br><br>
+<input id="S3" type="submit">
+
+</form>
+ </div>
+</div></div>    
+
+
+<!-- footer -->
+
+ <div class="footer">      
+<div class="footer-col">
+<h3 class="highlight">POINT GYM</h3>
+ <p class="footer-text">
+ Forge your strongest self, inside and out. The ultimate fitness destination.
+</p>
+</div>     
+ <div class="footer-col">
+ <h3>QUICK LINKS</h3>
+<ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="pricing.html">Plans</a></li>
+    <li><a href="coaches.html">Trainers</a></li>
+    <li><a href="schedule.html">Schedule</a></li>
+</ul>
+</div>
+ 
+ <div class="footer-col">
+<h3>CONNECT</h3>
+ <ul>
+     <li><a href="https://www.instagram.com/point.club.gym/" target="_blank">Instagram</a></li>
+     <li><a href="https://www.facebook.com/pointclubgym" target="_blank">Facebook</a></li>
+ </ul>
+</div>        
+<div class="footer-col footer-col-wide">
+<h3>SUPPORT / CONTACT</h3>
+<p class="footer-text-mb">
+<p>Location:<br><br>
+ الفيوم لطف الله مول سيتي بلازا بجوار مسجد الشبان المسلمين<br>
+Monshat El Fayoum, Faiyum Governorate, Egypt
+ </p>
+<p class="footer-text">
+<strong>Phone:</strong><br>
+ <a href="tel:01090448080">010 90448080</a><br>
+<a href="tel:+201090448080">010 90448080</a>
+ </p>
+ </div>
+
+ </div>
+     
+</div></div>
+<script>
+function validateForm() {
+let x = 
+document.forms["myForm"]["your age"].value;
+document.forms["myForm"]["your height"].value;
+document.forms["myForm"]["your weight"].value;
+if (x == "") {
+alert("submit fall");
+return false;
+}else{alert("submit success");}
+}
+
+</script>
+</body>
+</html>
