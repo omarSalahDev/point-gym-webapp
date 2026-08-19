@@ -4,7 +4,7 @@ A lightweight, responsive multi-page web application designed for a fitness faci
 
 ## Features
 
-- **Multi-Page Structure:** Dedicated pages for Home, Coaches Directory, InBody Submissions, Contact, and User Authentication.
+- **Multi-Page Structure:** Dedicated pages for Home, Coaches Directory, InBody Submissions, Contact, Pricing, and User Authentication.
 - **Dynamic Layouts:** Built using CSS Grid and Flexbox for responsive elements across pages.
 - **Interactive UI:** Dynamic mouse event handlers for buttons and navigational elements.
 - **Form Validation:** Client-side form input validation implemented using JavaScript to ensure required user data entry.
@@ -32,4 +32,5 @@ point-gym-webapp/
 ├── coaches.html
 ├── contact.html
 ├── inbody.html
-└── login.html
+├── login.html
+└── pricing.html
